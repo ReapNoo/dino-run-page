@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dino-run-page/static/css/main.2de2401b.css",
+    "main.js": "/dino-run-page/static/js/main.ea824fe3.js",
+    "static/js/453.3cf7f3b7.chunk.js": "/dino-run-page/static/js/453.3cf7f3b7.chunk.js",
+    "index.html": "/dino-run-page/index.html",
+    "main.2de2401b.css.map": "/dino-run-page/static/css/main.2de2401b.css.map",
+    "main.ea824fe3.js.map": "/dino-run-page/static/js/main.ea824fe3.js.map",
+    "453.3cf7f3b7.chunk.js.map": "/dino-run-page/static/js/453.3cf7f3b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2de2401b.css",
+    "static/js/main.ea824fe3.js"
+  ]
+}
