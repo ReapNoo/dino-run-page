@@ -1,0 +1,12 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importa la fuente VT323 (pixelada) de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/* Opcional: Para preservar la estética de píxeles en imágenes */
+img {
+  image-rendering: pixelated;
+}
