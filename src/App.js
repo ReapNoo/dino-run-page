@@ -15,7 +15,7 @@ function App() {
         <nav className="container flex items-center justify-between px-6 py-4 mx-auto">
           <div className="flex items-center">
             {/* AQUÍ VA TU LOGO (asegúrate de que esté en la carpeta public) */}
-            <img src="/logo.jpg" alt="Dino Run v4 Logo" className="h-12 mr-3 border-2 border-blueBorder" />
+            <img src="./logo.jpg" alt="Dino Run v4 Logo" className="h-12 mr-3 border-2 border-blueBorder" />
             <span className="text-2xl font-bold text-darkAccent font-['VT323']">DINO RUN</span>
           </div>
           <div className="hidden space-x-6 md:flex">
@@ -53,7 +53,7 @@ function App() {
         </div>
         <div className="flex justify-center w-full mt-12 md:w-1/2 md:mt-0">
           {/* IMAGEN DEL DINO SALTANDO EN LA TUNDRA */}
-          <img src="/dino_jump.png" alt="Jumping Dino Pixel Art" className="w-full max-w-sm border-4 h-auto border-blueBorder" />
+          <img src="./dino_jump.png" alt="Jumping Dino Pixel Art" className="w-full max-w-sm border-4 h-auto border-blueBorder" />
         </div>
       </section>
 
@@ -73,9 +73,9 @@ function App() {
             <div className="flex justify-center w-full mt-10 md:w-1/2 md:mt-0">
                <div className="flex p-4 space-x-4 border-2 bg-blueAccent border-blueBorder">
                  {/* IMÁGENES DE OBSTÁCULOS */}
-                 <img src="/Rocas.png" alt="Roca" className="h-16" />
-                 <img src="/Tronco.png" alt="Tronco" className="h-20" />
-                 <img src="/Pajaro.png" alt="Ave" className="h-16" />
+                 <img src="./Rocas.png" alt="Roca" className="h-16" />
+                 <img src="./Tronco.png" alt="Tronco" className="h-20" />
+                 <img src="./Pajaro.png" alt="Ave" className="h-16" />
                </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ function App() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
             <div className="flex items-center p-8 space-x-6 border-2 rounded-lg border-blueBorder bg-blueAccent">
                 {/* ICONO DE SALTO */}
-                <img src="/brinco.png" alt="Salto" className="h-16"/>
+                <img src="./brinco.png" alt="Salto" className="h-16"/>
                 <div className="flex-1">
                     <h3 className="mb-2 text-3xl font-bold text-white font-['VT323']">Saltar</h3>
                     <p className="text-white">Un toque corto: salto mínimo. Mantener: salto máximo.</p>
@@ -98,7 +98,7 @@ function App() {
             </div>
             <div className="flex items-center p-8 space-x-6 border-2 rounded-lg border-blueBorder bg-blueAccent">
                  {/* ICONO DE AGACHARSE */}
-                 <img src="/agachado.png" alt="Agacharse" className="h-16"/>
+                 <img src="./agachado.png" alt="Agacharse" className="h-16"/>
                  <div className="flex-1">
                     <h3 className="mb-2 text-3xl font-bold text-white font-['VT323']">Agacharse</h3>
                     <p className="text-white">Reduce la hitbox para esquivar aves. Actívalo en cualquier momento en el suelo.</p>
@@ -107,7 +107,7 @@ function App() {
             </div>
              <div className="flex items-center p-8 space-x-6 border-2 rounded-lg md:col-span-2 border-blueBorder bg-blueAccent">
                  {/* ICONO DE SKIN */}
-                 <img src="/skin.png" alt="Skin" className="h-16"/>
+                 <img src="./skin.png" alt="Skin" className="h-16"/>
                  <div className="flex-1">
                     <h3 className="mb-2 text-3xl font-bold text-white font-['VT323']">Personalizar Skin</h3>
                     <p className="text-white">Selecciona tu color preferido en el menú principal.</p>
